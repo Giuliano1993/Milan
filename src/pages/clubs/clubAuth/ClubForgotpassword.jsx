@@ -1,5 +1,5 @@
 import React from "react";
-import forgotpassword from "../../assets/pictures/forgotpassworduser.svg";
+import forgotpassword from "../../../assets/pictures/forgotpassworduser.svg";
 import "react-toastify/dist/ReactToastify.css";
 
 const ClubForgotpassword = () => {

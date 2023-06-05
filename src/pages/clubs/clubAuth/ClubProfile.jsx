@@ -1,7 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import comingsoon from "../../assets/pictures/comingsoon.svg";
-import Navbar from "../../components/Navbar";
+import comingsoon from "../../../assets/pictures/comingsoon.svg";
 import Cookies from "js-cookie";
 
 const ClubProfile = () => {

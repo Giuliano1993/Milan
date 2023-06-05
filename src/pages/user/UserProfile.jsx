@@ -1,9 +1,8 @@
 import React, { useState } from "react";
-import Navbar from "../../components/Navbar";
 import { useNavigate } from "react-router-dom";
 import { UpdateUser } from "../../service/MilanApi";
 import Cookies from "js-cookie";
-import "../../styles/UserLogin.css";
+import "./UserAll.css";
 
 export default function UserProfile() {
   document.title = "Milan | User Profile";

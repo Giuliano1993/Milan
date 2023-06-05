@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import "../../styles/UserLogin.css";
+import "./UserAll.css";
 import { LoginUser } from "../../service/MilanApi";
 import Cookies from "js-cookie";
 import { toast } from "react-toastify";

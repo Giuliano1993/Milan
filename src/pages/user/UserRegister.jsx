@@ -5,7 +5,7 @@ import { ReactComponent as AuthBanner } from "../../assets/pictures/authpages/au
 import SchemaValidator, { msgLocalise } from "../../utils/validation";
 
 //* The styles for Login and Register are essentially same
-import "../../styles/UserLogin.css";
+import "./UserAll.css";
 import { Helmet } from "react-helmet-async";
 import { toast } from "react-toastify";
 import { showSuccessToast } from "../../utils/showToast";

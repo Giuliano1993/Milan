@@ -1,7 +1,5 @@
 import React from "react";
 import "../styles/AboutUs.css";
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
 import abtImg from "../assets/pictures/aboutus/about-pana.png";
 
 export default function AboutUs() {

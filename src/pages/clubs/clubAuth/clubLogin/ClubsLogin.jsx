@@ -1,15 +1,15 @@
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import "../../styles/ClubLogin.css";
-import { LoginClub } from "../../service/MilanApi";
+import "./ClubLogin.css";
+import { LoginClub } from "../../../../service/MilanApi";
 import Cookies from "js-cookie";
 import { toast } from "react-toastify";
 import { Helmet } from "react-helmet-async";
-import { ReactComponent as AuthBanner } from "../../assets/pictures/authpages/authbannerimg.svg";
+import { ReactComponent as AuthBanner } from "../../../../assets/pictures/authpages/authbannerimg.svg";
 import ClipLoader from "react-spinners/ClipLoader";
-import { showErrorToast, showSuccessToast } from "../../utils/showToast";
-import "../../styles/UserLogin.css";
-import Button from "../../components/Button";
+import { showErrorToast, showSuccessToast } from "../../../../utils/showToast";
+import "../../../user/UserAll.css";
+import Button from "../../../../components/Button";
 import { FiEye, FiEyeOff } from "react-icons/fi";
 
 function ClubLogin() {

@@ -1,6 +1,6 @@
 import React from "react";
 import forgotpassworduser from "../../assets/pictures/forgotpassworduser.svg";
-import "../../styles/UserLogin.css";
+import "./UserAll.css";
 import "react-toastify/dist/ReactToastify.css";
 
 const UserForgotpassword = () => {

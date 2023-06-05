@@ -1,10 +1,10 @@
 import React, { useEffect, useRef } from "react";
-import "../../styles/ClubDetails.css";
+import "./ClubDetails.css";
 import { useParams } from "react-router-dom";
-import displayRazorpay from "../../service/PaymentGateway";
-import Modal from "../../components/Modal";
+import displayRazorpay from "../../../service/PaymentGateway";
+import Modal from "../../../components/Modal";
 import useSWR from "swr";
-import { defaultfetcher } from "../../utils/fetcher";
+import { defaultfetcher } from "../../../utils/fetcher";
 
 function ClubDetailsCard() {
   const params = useParams();

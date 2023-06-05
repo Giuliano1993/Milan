@@ -17,8 +17,8 @@ import {
   Donate,
 } from "./pages";
 import MilanState from "./context/MilanState";
-import ClubForgotpassword from "./pages/clubs/ClubForgotpassword";
-import ClubDetailsCard from "./pages/clubs/ClubDetails";
+import ClubForgotpassword from "./pages/clubs/clubAuth/ClubForgotpassword";
+import ClubDetailsCard from "./pages/clubs/clubDetails/ClubDetails";
 import UserForgotpassword from "./pages/user/UserForgotpassword";
 import { ToastContainer } from "react-toastify";
 import Navbar from "./components/Navbar";
@@ -87,7 +87,7 @@ const App = () => {
             {/* //* Shop */}
             <Route exact path="/shop" element={<ShopLanding />} />
             <Route exact path="/shop/:category" element={<ShopCategory />} />
-            <Route path={"/*"} element={<Error404/>}/>
+            <Route path={"/*"} element={<Error404 />} />
           </Routes>
           {/* <Footer /> */}
           <Footer />

@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 import ClipLoader from "react-spinners/ClipLoader";
 import { Link, useNavigate } from "react-router-dom";
-import { RegisterClub } from "../../service/MilanApi";
-import "../../styles/ClubsRegister.css";
-import { ReactComponent as AuthBanner } from "../../assets/pictures/authpages/authbannerimg.svg";
+import { RegisterClub } from "../../../../service/MilanApi";
+import "./ClubsRegister.css";
+import { ReactComponent as AuthBanner } from "../../../../assets/pictures/authpages/authbannerimg.svg";
 import { Helmet } from "react-helmet-async";
-import { showSuccessToast } from "../../utils/showToast";
-import Button from "../../components/Button";
-import "../../styles/UserLogin.css";
+import { showSuccessToast } from "../../../../utils/showToast";
+import Button from "../../../../components/Button";
+import "../../../user/UserAll.css";
 import { toast } from "react-toastify";
 import { FiEye, FiEyeOff } from "react-icons/fi";
 
@@ -188,8 +188,6 @@ const ClubLogin = () => {
                   id="email-mob"
                 />
               </div>
-
-              {/* Password start */}
 
               <div
                 className="d-flex flex-row flex-md-row"

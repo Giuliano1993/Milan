@@ -4,6 +4,8 @@ export default function ClickAwayListener(props) {
   const { children, onClickAway } = props;
 
   useEffect(() => {
+    console.log("ClickAwayListener useEffect");
+
     function handleClick(event) {
       // Check if the clicked element is inside the component
       if (!event.target.closest(".click-away-listener")) {
